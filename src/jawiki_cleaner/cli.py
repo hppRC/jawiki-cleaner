@@ -27,8 +27,6 @@ def main():
 
     if not INPUT.exists():
         raise ValueError(f"{INPUT} is not exists.")
-    if not OUTPUT.exists():
-        raise ValueError(f"{OUTPUT} is not exists.")
 
     with INPUT.open() as f, OUTPUT.open("w") as w:
         prev_is_newline = False
