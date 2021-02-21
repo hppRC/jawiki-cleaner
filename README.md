@@ -7,14 +7,23 @@
 
 Apply this tool for a extracted text by WikiExtractor.
 
+
+## Instralltion
+
+```bash
+pip install jawiki-cleaner
 ```
+
+## Usage
+
+```bash
 # specify a input file path and output file path
-$ jawiki-cleaner --input ./wiki.txt --output ./cleaned-wiki.txt
-$ jawiki-cleaner -i ./wiki.txt -o ./cleaned-wiki.txt
+jawiki-cleaner --input ./wiki.txt --output ./cleaned-wiki.txt
+jawiki-cleaner -i ./wiki.txt -o ./cleaned-wiki.txt
 
 # or only specify a input file path
 # output file path will be `./cleaned-wiki.txt`
-$ jawiki-cleaner -i ./wiki.txt
+jawiki-cleaner -i ./wiki.txt
 ```
 
 
