@@ -12,7 +12,7 @@ def replace_characters(text):
     text = re.sub(r'\s*\)\s*', ')', text)
     text = re.sub(r'(,\s)+', ',', text)
     text = re.sub(r'(\s*、\s*)+', '、', text)
-    text = re.sub(r'\s*\+\s*', '-', text)
+    text = re.sub(r'\s*\+\s*', '+', text)
     text = re.sub(r'\s*-\s*', '-', text)
     text = re.sub(r'\s*%\s*', '%', text)
     text = re.sub(r'\s*""\s*', '', text)
