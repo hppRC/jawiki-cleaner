@@ -5,7 +5,7 @@ homepage = "https://github.com/hpprc/jawiki-cleaner"
 name = "jawiki-cleaner"
 readme = "README.md"
 repository = "https://github.com/hpprc/jawiki-cleaner"
-version = "0.1.1"
+version = "0.1.2"
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -18,4 +18,4 @@ build-backend = "poetry.masonry.api"
 requires = ["poetry>=0.12"]
 
 [tool.poetry.scripts]
-jawiki-cleaner = "src.jawiki_cleaner.cli:main"
+jawiki-cleaner = "jawiki_cleaner.cli:main"
